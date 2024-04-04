@@ -11,3 +11,5 @@ Responsive Web Design - FreeCodeCamp
 9.  Accessibility - Building Quiz
 10.  PROJECT - Tribute Page
 11.  Balance Sheet
+12.  Cat Painting
+13.  Piano
