@@ -13,3 +13,6 @@ Responsive Web Design - FreeCodeCamp
 11.  Balance Sheet
 12.  Cat Painting
 13.  Piano
+14. PROJECT - Technical documentation Page
+15. City Skyline - CSS Variables
+16. Magazine - CSS Grid
