@@ -67,11 +67,12 @@ body {
 }
 
 .form-section #email {
-  width: 30vw;
+  width: 30%;
   height: 2.5rem;
   text-align: center;
   font-size: 1rem;
   padding: 0.5rem;
+  border: 1px solid black;
 }
 
 .form-section #submit {
@@ -214,7 +215,7 @@ footer p a:hover {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   .form-section #submit {
     font-size: 0.9rem;
   }
