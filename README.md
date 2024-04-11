@@ -16,3 +16,7 @@ Responsive Web Design - FreeCodeCamp
 14. PROJECT - Technical documentation Page
 15. City Skyline - CSS Variables
 16. Magazine - CSS Grid
+17. PROJECT - Product Landing Page
+18. Ferris Wheel
+19. Penguin
+20. PROJECT - Personal Portfolio
