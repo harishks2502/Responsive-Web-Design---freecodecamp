@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: rgba(217, 217, 217, 0.2);
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+#navbar {
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 3.5rem;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbar .nav-section {
+  width: 40%;
+}
+
+#navbar .nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#navbar .lists {
+  font-size: 1.2rem;
+  margin: 0.875rem;
+}
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section-image {
+  margin-right: 5rem;
+}
+
+.profile-image {
+  width: 18rem;
+  height: 19rem;
+  border-radius: 50%;
+  border: 5px double darkgrey;
+  object-fit: cover;
+}
+
+.header-section-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section-description h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.header-section-description p {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+#projects {
+  padding: 4rem 2.5rem;
+}
+
+.project-heading {
+  max-width: 40rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.75rem;
+  margin: 1.75rem auto 1.75rem auto;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid rgb(102, 98, 98);
+}
+
+.projects-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 40px;
+}
+
+.project-tile {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.project-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-image {
+  width: 100%;
+  height: fit-content;
+  object-fit: cover;
+}
+
+.project-description {
+  color: black;
+  margin: 15px 0 0 0;
+  font-size: 1.25rem;
+}
+
+#contact {
+  height: calc(100vh - 4rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section-header h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.75rem;
+  font-weight: 800;
+}
+
+.contact-section-links {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 2rem;
+}
+
+#profile-link {
+  display: block;
+}
+
+footer p {
+  text-align: center;
+  margin: 0.75rem;
+}
+
+@media only screen and (max-width: 1090px) {
+  .projects-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
